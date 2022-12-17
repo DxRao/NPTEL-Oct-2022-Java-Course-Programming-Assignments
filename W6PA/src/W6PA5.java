@@ -1,0 +1,50 @@
+public class W6PA5 extends Thread{  
+  public void run(){  
+      
+  }  
+ public static void main(String args[]){  
+    W6PA5 t1=new W6PA5();  
+    System.out.println("Name of thread 't1':"+ t1.getName());  
+
+    W6PA5 t2=new W6PA5();  
+    System.out.println("Name of thread 't2':"+ t2.getName());
+
+    
+ // Write the necessary code below...
+    
+    t1.setName("Week 6 Assignment Q5");
+	t2.setName("Week 6 Assignment Q5 New");    
+    
+    
+    System.out.println("New name of thread 't1':"+ t1.getName()); 
+    System.out.println("New name of thread 't2':"+ t2.getName());
+  
+  }  
+ }
+
+
+/*
+Week 6 : Programming Assignment 5
+Due on 2022-09-08, 23:59 IST
+Given a snippet of code, add necessary codes to print the following:
+
+
+-----------------OUTPUT-------------------
+
+Name of thread 't1':Thread-0
+
+Name of thread 't2':Thread-1
+
+New name of thread 't1':Week 6 Assignment Q5
+
+New name of thread 't2':Week 6 Assignment Q5 New
+
+------------------------------------------------- * 
+Input	Output
+
+Test Case 1	
+		Name of thread 't1':Thread-0
+		Name of thread 't2':Thread-1
+		New name of thread 't1':Week 6 Assignment Q5
+		New name of thread 't2':Week 6 Assignment Q5 New
+ */
