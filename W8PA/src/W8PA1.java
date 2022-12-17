@@ -3,7 +3,7 @@ public class W8PA1 {
     public static void main(String[] args) {
         Scanner inr = new Scanner(System.in);
 	   int n = inr.nextInt();
-        // Add the necessary code in the below space
+        // Add the necessary code in the below space ...
 	   
 	   int rows = n, x=0, starCounter = 0;
 	   
