@@ -14,10 +14,10 @@ public class W3PA1 {
 
 } 
 		//Template code:
-		static int fib(int n) { 
-			int x = 0;
-			int y = 1;
-			int z = 0;
+	static int fib(int n) { 
+		int x = 0;
+		int y = 1;
+		int z = 0;
 			
 			if(n==1) {
 				z = 0;
