@@ -1,3 +1,5 @@
+// Calculate the perimeter and area of a given radius for a circle.
+
 import java.util.Scanner;
 
 public class W1PA1 {
