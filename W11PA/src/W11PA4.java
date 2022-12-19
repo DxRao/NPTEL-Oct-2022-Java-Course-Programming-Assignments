@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.lang.*;
 
-public class CalAverage {
+public class W11PA4 {
     
 	public static void main(String args[]) {
         
