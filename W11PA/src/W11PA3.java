@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.lang.*;
 
-public class DeleteData {
+public class W11PA3 {
     
 	public static void main(String args[]) {
         try {
